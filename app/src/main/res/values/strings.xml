@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ZxingScan</string>    <!-- 二维码 -->
+    <string name="scan_title">扫一扫</string>
+    <string name="scan_tip">请将二维码置于取景框内扫描</string>
+    <string name="sacn_dialog_title">是否打开链接?</string>
+    <string name="scan_url">http://www.baidu.com</string>
+    <string name="cancle">取消</string>
+    <string name="sure">确定</string>
+    <string name="scan_reuslt">扫描结果</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <com.example.meng.zxingscan.widget.ErcodeScanView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center" >
+
+        <RelativeLayout
+            android:id="@+id/ll_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/black" >
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/button_details_gohome" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/scan_title"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:text="@string/scan_tip"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</FrameLayout>
